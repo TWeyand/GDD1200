@@ -13,7 +13,7 @@ public class PlayerDeath : MonoBehaviour
 
     private bool isDead;
     public static float deathTimer = 3.0f;
-    private float deathTime = 3.0f
+    private float deathTime = 3.0f;
 
     private void Update()
     {

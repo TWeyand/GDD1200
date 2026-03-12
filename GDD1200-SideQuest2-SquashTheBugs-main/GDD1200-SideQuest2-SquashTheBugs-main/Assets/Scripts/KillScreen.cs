@@ -16,7 +16,7 @@ public class KillScreen : MonoBehaviour
     }
     public void SetLivesText(int lives)
     {
-        livesText.text = lives;
+        livesText.text = lives.ToString();
     }
 
     private void SetRespawnText(float respawn)
