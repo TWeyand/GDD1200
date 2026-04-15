@@ -1,1 +1,20 @@
-Thomas Weyand's submission for Side Quest 1.5
+Thomas Weyand's submission for Main Quest 1
+
+HOW TO RUN
+  In the Unity Editor, press the play button while in the MainMenu scene.
+  The game should be set to the 1920x1080 resolution.
+
+  If running from a build, just double click the DragonGuesser.exe file.
+
+CONTROLS
+  All you need is a mouse with a left click in order to click the onscreen buttons.
+
+KNOWN ISSUES
+  The smoke effect can sometimes obfuscate the Dragon's face on the death screen.
+  There is no alert for an invalid input, the keypad just resets to 0.
+  If you try to put in a number into the keypad that goes.
+  If the game is not played with the "Full HD (1920x1080)" or "16x9 Aspect", then the game does not work properly.
+  [FIXED] The GuessingPhase does not start when in "16x9 Aspect"
+          - I imagine it has to do with how I coded the keypad moving offscreen, because the guessing display works fine if you manually turn it on.
+          -[SOLUTION] 16x9 Aspect caused the y value keypad to change, so I had the keypad mover use only the x coordinate to validate the keypad's movement instead.
+  The Keypad moves too fast when played in "16x9" aspect mode.
