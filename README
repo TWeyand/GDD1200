@@ -18,3 +18,6 @@ KNOWN ISSUES
           - I imagine it has to do with how I coded the keypad moving offscreen, because the guessing display works fine if you manually turn it on.
           -[SOLUTION] 16x9 Aspect caused the y value keypad to change, so I had the keypad mover use only the x coordinate to validate the keypad's movement instead.
   The Keypad moves too fast when played in "16x9" aspect mode.
+
+CREDITS
+  Created by Thomas Weyand
