@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 51cd7b4a93f0957459304f76556f54c5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - <ColorConfig>k__BackingField: {fileID: 11400000, guid: 8fe23e410b8244741b60c9dc0f30133e, type: 2}
+  - <PrimarySprite>k__BackingField: {instanceID: 0}
+  - <SecondarySprite>k__BackingField: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
